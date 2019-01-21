@@ -31,7 +31,7 @@ Example:
         </ul>
       </header>
   ```
-    settings = {
+   var settings = {
       windowSize: 720 // Break point
       elem: 'ul' // Menu
       srcImg: 'https://image.flaticon.com/icons/svg/462/462998.svg' // Icon Burger
