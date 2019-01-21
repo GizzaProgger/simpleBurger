@@ -3,10 +3,13 @@ This javascript code allows you to create a Burger menu is very simple and fast
 
 First: You should download burger.js and burger.css, and include this files to your project
 Second: Writing settings.
-  Example: {
+  Example:
+  ``
+  var settings = {
     windowSize: 720,
     elem: '.menu'
   }
+  ``
 Third: Init simpleBurger. new Burger(settings)
 
 Full list of settings: windowSize - at what resolution of the window should replace the standard menu with Burgers
