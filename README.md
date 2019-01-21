@@ -27,8 +27,7 @@ Example:
           <li><a href="somelink 5">some text 5</a></li>
         </ul>
       </header>
-    ```
-    ```
+  ```
     settings = {
       windowSize: 720 // Break point
       elem: 'ul' // Menu
@@ -36,4 +35,3 @@ Example:
       inElem: 'header' // Place where to insert Burger button
     }
     burger = new Burger(settings);
-    ```
