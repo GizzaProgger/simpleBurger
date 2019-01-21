@@ -1,8 +1,8 @@
 # simpleBurger
 This javascript code allows you to create a Burger menu is very simple and fast
 
-First: You should download burger.js and burger.css, and include this files to your project
-Second: Writing settings.
+1. You should download burger.js and burger.css, and include this files to your project
+2. Writing settings.
   Example:
   ``
   var settings = {
@@ -10,12 +10,13 @@ Second: Writing settings.
     elem: '.menu'
   }
   ``
-Third: Init simpleBurger. new Burger(settings)
+3. Init simpleBurger. new Burger(settings)
 
-Full list of settings: windowSize - at what resolution of the window should replace the standard menu with Burgers
-                       elem - class or ID of the menu you want to replace with a Burger
-                       srcImg - url burger icon
-                       inElem - class or id the element in which you want to insert the icon Burger
+Full list of settings:
+1. windowSize - at what resolution of the window should replace the standard menu with Burgers
+2. elem - class or ID of the menu you want to replace with a Burger
+3. srcImg - url burger icon
+4. inElem - class or id the element in which you want to insert the icon Burger
 
 You can change styles burger menu in burger.css
 
