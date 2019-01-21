@@ -31,6 +31,7 @@ Example:
         </ul>
       </header>
   ```
+  ```javascript
    var settings = {
       windowSize: 720 // Break point
       elem: 'ul' // Menu
@@ -38,3 +39,4 @@ Example:
       inElem: 'header' // Place where to insert Burger button
     }
     burger = new Burger(settings);
+   ```
